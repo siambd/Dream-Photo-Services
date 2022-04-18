@@ -1,25 +1,45 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../../firebase.init';
 import './Header.css'
 
 const Header = () => {
+    const [user] = useAuthState(auth);
+
+    const handleSignOut = () =>{
+        signOut(auth);
+    }
     return (
         <>
-
-            <Navbar bg="primary" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="primary" sticky='top' variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">DREAM PHOTOSTORE</Navbar.Brand>
-                    <Nav className="me-auto ms-5">
-                        <Link className='link-color' to="/"> Home </Link>
-                        <Link className='link-color' to="/services"> Services </Link>
-                        <Link className='link-color' to="/reviews"> Reviews </Link>
-                        <Link className='link-color' to="/blogs"> Blogs </Link>
-                        <Link className='link-color' to="/about"> About Me </Link>
+                    <Navbar.Brand as={Link} to="/"> DREAM PHOTOSTORE</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
+                            <Link className='link-color' to="/"> Home </Link>
+                            <Link className='link-color' to="/services"> Services </Link>
+                            <Link className='link-color' to="/reviews"> Reviews </Link>
+                            <Link className='link-color' to="/blogs"> Blogs </Link>
+                            <Link className='link-color' to="/about"> About Me </Link>
+                        </Nav>
+                        <Nav>
+                            <Link className='link-color me-4 my-auto' to="/about"> About Me </Link>
+
+                           { 
+                           user ?
+                           <button className='btn btn-danger btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>:
                        
-                    </Nav>
+                            <Link className='link-color' to="/Login"> Login </Link>
+                            }
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
+          
 
 
         </>

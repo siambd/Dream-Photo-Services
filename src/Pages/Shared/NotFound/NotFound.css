@@ -1,0 +1,16 @@
+.not-found {
+    font-size: 40px;
+    font-family: "Rubik Wet Paint", cursive;
+    color:red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px;
+    
+  }
+  .not-found img {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+  }
+  

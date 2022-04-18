@@ -6,12 +6,12 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC_4A2JMwvbEAOwTSlT3m8kXnW0F7uAlSw",
-  authDomain: "dream-photostore.firebaseapp.com",
-  projectId: "dream-photostore",
-  storageBucket: "dream-photostore.appspot.com",
-  messagingSenderId: "707314099409",
-  appId: "1:707314099409:web:407c45ade48c7cb4d111f0"
+  apiKey:process.env.REACT_APP_apiKey ,
+  authDomain:process.env.REACT_APP_authDomain,
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APP_storageBucket,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
