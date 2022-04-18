@@ -1,0 +1,31 @@
+[
+    {"id":1,
+    "name": "Personal Photography",
+    "price": 100,
+    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "img": "https://i.ibb.co/ZVWR1gn/p1-studio.png"  
+    },
+
+    {"id":2,
+    "name": "Product Photography",
+    "price": 150,
+    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "img": "https://i.ibb.co/JkCtFb1/p2-product.png"  
+    },
+
+    {"id":3,
+    "name": "Couple Photography",
+    "price": 200,
+    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "img": "https://i.ibb.co/ZfDXRFd/p3-wedding.png"  
+    },
+
+    {"id":4,
+    "name": "Street Photography",
+    "price": 50,
+    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "img": "https://i.ibb.co/CnnwkPg/p4-street.png"  
+    }
+    
+ 
+]
