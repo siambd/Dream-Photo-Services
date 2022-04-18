@@ -1,7 +1,9 @@
 # Dream Photostudio
 ## Assignment-10, Programming hero
 ### Github link: https://github.com/programming-hero-web-course-4/independent-service-provider-siambd
-### Livesite link: 
+### netlify link: https://dream-photostore.netlify.app/
+
+#### im facing some problem with firebase deploy, allowed me to resbmit the livesite link.
 
 ## Using methood and library
 - React-router-dom
