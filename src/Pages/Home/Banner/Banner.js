@@ -21,8 +21,8 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Personal PgotoGraphy Service</h3>
+          <p>Book my personal photography service for your social and keep your memories</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Products PhotoGraphy</h3>
+          <p>Book my product photoGraphy service for your eccommerce products and boost your buiseness</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,9 +45,9 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Edit your photo</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Edit your photo for social media or Shoping site.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

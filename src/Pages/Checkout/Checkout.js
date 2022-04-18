@@ -2,8 +2,8 @@ import React from 'react';
 
 const Checkout = () => {
     return (
-        <div>
-            <h2> checkout for your servcie </h2>
+        <div className='d-flex justify-content-center mt-4'>
+            <h2 > Thank you for book this service, ill contact with you soon ! </h2>
         </div>
     );
 };

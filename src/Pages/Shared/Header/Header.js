@@ -24,7 +24,7 @@ const Header = () => {
                             <Link className='link-color' to="/services"> Services </Link>
                             <Link className='link-color' to="/reviews"> Reviews </Link>
                             <Link className='link-color' to="/blogs"> Blogs </Link>
-                            <Link className='link-color' to="/about"> About Me </Link>
+                           
                         </Nav>
                         <Nav>
                             <Link className='link-color me-4 my-auto' to="/about"> About Me </Link>

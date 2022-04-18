@@ -1,25 +1,21 @@
-// import React from 'react';
+import React from 'react';
 
-// const About = () => {
-//     return (
-//         <div>
-//             <h4> this is about me </h4>
-//         </div>
-//     );
-// };
-
-// export default About;
-import React from "react";
-import './About.css'
 
 const About = () => {
   return (
-    <div className="about">
-      <h2 className="about-title">
-        Want to know more about us ? Dont think about it just email:
-      </h2>
-      <h3 className="email"> rogcommunity@asus.com</h3>
-     
+    <div className='d-flex ps-4 pt-4'>
+      <div className='ms-5'>
+        <h2> About Me :</h2>
+        <p> Name: MD ASRAFUL ISLAM</p>
+        <p>Educational background: Currently pursuing B.Tech from NIT trichy, India.</p>
+        <p> I want to be a MERN developer in next 3 month, and wantt to be a good person. </p>
+      </div>
+      <div>
+        <img className='img-fluid w-25 ms-5 ps-5' src="/about.jpeg" alt="" />
+      </div>
+
+
+
     </div>
   );
 };

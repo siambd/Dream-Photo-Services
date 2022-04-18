@@ -5,19 +5,18 @@ const Blogs = () => {
   return (
     <div className="blogs-container">
       <div className=" blog-box">
-      <h1> Q.1: What is context api?</h1>
-      <p> Ans: The Context API is used to share the data with multiple components, without having to pass data through props manually.
-       The React Context API allows us to produce the global data and share it across the application. Context API consists of three major parts which are Create Context , Provider and Consumer. 
+      <h4> Q.1: Difference between authorization and authentication ?</h4>
+      <p> Ans: authentication is the process of verifying who a user is, while authorization is the process of verifying what they have access to. In the other hand we can say, authentication validates a user's identity a Authorization then grants that user permission to access a resource.
       </p>
       </div>
       <div className="blog-box">
-      <h1>Q.2: What is Semantic tag?</h1>
+      <h4>Q.2: Why are you using firebase? What other options do you have to implement authentication?</h4>
       <p>
-        Ans: Semantic tag have meaningful name which tells us about the type of
-        content.It is easy to identify various parts of webpage at a glance.it
-        is very important for developer and users.Using semantic tags we can add
-        more hooks for styleing.
+        Ans: Im using Firebase for database and authentication. It reduces development workload and time. And it's a perfect prototyping tool. Firebase is simple, lightweight, friendly, and industrially recognized. Use can use Okta for authentication service.
       </p>
+
+      <h4>Q.3: What other services does firebase provide other than authentication? </h4>
+      <p>Ans: Firebase also provided Cloud Functions, Hosting.Cloud Storage, Predictions, Cloud Messaging etc Services. </p>
 
       </div>
       

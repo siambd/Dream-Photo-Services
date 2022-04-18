@@ -2,28 +2,28 @@
     {"id":1,
     "name": "Personal Photography",
     "price": 100,
-    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "description": "Book my personal photography service for your social and keep your memories Here you  can capture upto 43 photos using this package",
     "img": "https://i.ibb.co/ZVWR1gn/p1-studio.png"  
     },
 
     {"id":2,
     "name": "Product Photography",
     "price": 150,
-    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "description": "Book my product photoGraphy service for your eccommerce products and boost your buiseness,  Here you can capture upto 30 photos using this package",
     "img": "https://i.ibb.co/JkCtFb1/p2-product.png"  
     },
 
     {"id":3,
     "name": "Couple Photography",
     "price": 200,
-    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "description": "You can hire me to to capture good moment with  your partner. Dont worry your photo will be safe  you can capture upto 43 photos using this package",
     "img": "https://i.ibb.co/ZfDXRFd/p3-wedding.png"  
     },
 
     {"id":4,
-    "name": "Street Photography",
+    "name": "Editing Photo",
     "price": 50,
-    "description": "Here you can hire me for your personal photoShoot, you can capture upto 43 photos using this package",
+    "description": "Edit your photo for social media or Shoping site. Book my product photoGraphy service for your eccommerce products and boost your buiseness",
     "img": "https://i.ibb.co/CnnwkPg/p4-street.png"  
     }
     
